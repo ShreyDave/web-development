@@ -1,0 +1,92 @@
+body {
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+.container {
+  width: 500px;
+  margin: 25px auto;
+}
+
+form {
+  padding: 20px;
+  background-color: #ddd;
+  color: black;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.form1 {
+  background: #ddd;
+  color: black;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+form label,
+form input,
+form button {
+  border: 0;
+  margin-bottom: 3px;
+  width: 100%;
+}
+
+form input {
+  height: 25px;
+  line-height: 25px;
+  background: #fff;
+  color: #000;
+  padding: 0 6px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+form button {
+  height: 30px;
+  line-height: 30px;
+  background: #e67e22;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+form .error {
+  color: #ff0000;
+}
+
+.radio-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.radio-inputs {
+  width: 25px;
+  margin: 0px 10px 6px 20px;
+}
+
+.a01 {
+  padding: 32px;
+}
+
+#output {
+  height: 200px;
+  display: block;
+  border: 10px solid tra;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+#gender-error {
+  color: aliceblue;
+}

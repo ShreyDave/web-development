@@ -1,0 +1,29 @@
+*{
+    background-color:white;
+}
+table th,
+table td {
+    text-align: left;
+}
+
+table tr:nth-child(even) {
+    background-color:#DE8932;
+}
+
+.pagination li:hover {
+    cursor: pointer;
+}
+
+table tbody tr {
+    display: none;
+}
+
+#myInput {
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 200px solid #ddd;
+}
+

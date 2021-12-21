@@ -1,0 +1,39 @@
+#a01{
+    background-color:#0B2341;
+    color:white;
+}
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:30.5%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width:30%;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 5px 16px;
+    text-decoration: none;
+    display: block;
+    font-size:10px;
+    color:#0B2341;
+}
+.dropdown-content a:hover {background-color: #ddd;text-decoration:none;}
+.dropdown:hover .dropdown-content {display: block;}
+  

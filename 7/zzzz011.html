@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="zzzz011.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+</head>
+<body>
+    <div class="container p-3">
+      <marquee scrollamount="15" style="color:red;font-size:30PX;text-align:center;">Please fill this Registration form.</marquee>
+        <h2 style="text-align: center;">Registration</h2>
+        <form action="" name="registration" autocomplete="on" onsubmit="return changeText()">
+
+        <!-- First Name -->
+
+          <label for="firstname">Name:</label>
+          <input type="text" name="firstname" id="firstname" placeholder="Name" class="p-3" data-error="#errNm1">
+    
+        <!-- Email -->
+
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" placeholder="john@doe.com" class="p-3">
+
+        <!-- Mobile Number -->
+            
+          <label for="mobile">Mobile Number:</label>
+          <input type="number" name="mobile" id="mobile" placeholder="0123456789"  class="p-3 xyx">
+
+        <!-- Gender -->
+
+          <p class="form1">Gender:</p>
+          <div class="radio-div">
+            <br>
+            <input class="radio-inputs" type="radio" onclick="emptyGenderError()" name="gender" id="Male" value="Male">Male
+            <input class="radio-inputs" type="radio" onclick="emptyGenderError()" name="gender" id="Female" value="Female">Female
+         </div>
+         <div class="error" id='genderError'></div>
+
+        <!-- Country -->
+
+        <div class="form-group">
+          <label for="Country">Country:</label>
+            <select name="country" class="custom-select mb-3" id="country" class="p-3">
+              <option value="">Select country:</option>
+              <option value="india">India</option>
+              <option value="dubai">Dubai</option>
+              <option value="canada">Canada</option>
+            </select>
+        </div>
+
+        <!-- Password -->
+      
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;" class="p-3">
+
+        <!-- Confirm Password -->
+
+          <label for="password">Confirm Password:</label>
+          <input type="password" name="password1" id="password1" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;" class="p-3">
+
+        <!-- Description -->
+
+          <div class="form-group">
+            <label for="description">Description:</label>
+            <textarea class="form-control" name="textarea" rows="5" id="comment" class="p-3"></textarea>
+          </div>
+
+        <!-- Upload File -->
+
+        <p>Upload File:</p>
+          <div class="form-group bg-white" style="display:flex;">
+            <label for="File" style="display:flex;align-items: center;justify-content: center;">
+              <div class="btn btn-outline-dark">Upload File</div>
+              <span>
+                <input type="file" accept="image/*" onchange="loadFile(event)" id="File" class="a01 d-none" name="File">
+              </span>
+              <img id="output">
+            </label>
+          </div>
+        
+        <!-- Submit button -->
+      
+          <button type="submit" value="Submit" class="bg-primary">Submit</button>
+
+        <!-- My info -->
+
+          <h1>My info:</h1>
+          <p>
+              Your name is:&nbsp;<span id="outputname"></span><br>
+              Your email is:&nbsp;<span id="outputemail"></span><br>
+              Your Mobile Number is:&nbsp;<span id="outputmnumber"></span><br>
+              Your gender is:&nbsp;<span id= "output1"></span><br>
+              Your country is:&nbsp;<span id="outputcountry"></span><br>
+              Description:&nbsp;<span id="outputdescription"></span><br>
+              Upload File:&nbsp;<span id="outputfile"></span>
+          </p>
+        </form>
+      </div>
+    <script src="zzzz011.js"></script>
+</body>
+</html>

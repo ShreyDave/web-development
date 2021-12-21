@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Form validation</title>
+    <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+    <form name="contactForm" autocomplete="on" method="POST" onsubmit="return validateForm()">
+        <h2>Application Form</h2>
+
+        <!-- Name -->
+
+        <div class="row">
+            <label>Full Name</label>
+            <input type="text" name="name" placeholder="Full Name">
+            <div class="error" id="nameErr"></div>
+        </div>
+
+        <!-- Email -->
+
+        <div class="row">
+            <label>Email Address</label>
+            <input type="text" name="email" placeholder="Email">
+            <div class="error" id="emailErr"></div>
+        </div>
+
+        <!-- Mobile Number -->
+
+        <div class="row">
+            <label>Mobile Number</label>
+            <input type="text" name="mobile" maxlength="10" placeholder="Mobile Number">
+            <div class="error" id="mobileErr"></div>
+        </div>
+
+        <!-- password -->
+
+        <div class="row">
+            <label>password</label>
+            <input type="password" name="password" maxlength="8" placeholder="password">
+            <div class="error" id="passwordErr"></div>
+        </div>
+
+        <!--confirm password -->
+
+        <div class="row">
+            <label>confirm password</label>
+            <input type="password" name="confirmpassword" maxlength="8" placeholder="confirm password">
+            <div class="error" id="confirmpasswordErr"></div>
+        </div>
+
+        <!-- Country -->
+
+        <div class="row">
+            <label>Country</label>
+            <select name="country">
+                <option>Select</option>
+                <option>India</option>
+                <option>United States</option>
+                <option>United Kingdom</option>
+                <option>Australia</option>
+            </select>
+            <div class="error" id="countryErr"></div>
+        </div>
+
+        <!-- Gender -->
+
+        <div class="row">
+            <label>Gender</label>
+            <div class="form-inline">
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+            </div>
+            <div class="error" id="genderErr"></div>
+        </div>
+
+        <!-- Upload File -->
+
+        <div class="row">
+            <label for="File">
+                <div class="btn btn-outline-dark">Upload File</div>
+                <span>
+                    <input type="file" accept="image/*" onchange="loadFile(event)" onclick="emptyuploadError()"
+                        name="file">
+                </span>
+                &nbsp;
+                <img id="output">
+            </label>
+            <div class="error" id="fileErr"></div>
+        </div>
+
+
+        <div class="row">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+
+
+    <script>
+        // Defining a function to display error message
+        function printError(elemId, hintMsg) {
+            document.getElementById(elemId).innerHTML = hintMsg;
+        }
+
+        // Defining a function to validate form
+        function validateForm() {
+            // Retrieving the values of form elements
+            var name = document.contactForm.name.value;
+            var email = document.contactForm.email.value;
+            var mobile = document.contactForm.mobile.value;
+            var password = document.contactForm.password.value;
+            var confirmpassword = document.contactForm.confirmpassword.value;
+            var country = document.contactForm.country.value;
+            var gender = document.contactForm.gender.value;
+            var hobbies = [];
+            var checkboxes = document.getElementsByName("hobbies[]");
+
+            // Defining error variables with a default value
+            var nameErr = emailErr = mobileErr = passwordErr = confirmpasswordErr = countryErr = genderErr = fileErr =
+                true;
+
+            // Validate name
+            if (name == "") {
+                printError("nameErr", "Please enter your name");
+            } else {
+                var regex = /^[a-zA-Z\s]+$/;
+                if (regex.test(name) === false) {
+                    printError("nameErr", "Please enter a valid name");
+                } else {
+                    printError("nameErr", "");
+                    nameErr = false;
+                }
+            }
+
+            // Validate email address
+            if (email == "") {
+                printError("emailErr", "Please enter your email address");
+            } else {
+                // Regular expression for basic email validation
+                var regex = /^\S+@\S+\.\S+$/;
+                if (regex.test(email) === false) {
+                    printError("emailErr", "Please enter a valid email address");
+                } else {
+                    printError("emailErr", "");
+                    emailErr = false;
+                }
+            }
+
+            // Validate mobile number
+            if (mobile == "") {
+                printError("mobileErr", "Please enter your mobile number");
+            } else {
+                var regex = /^[1-9]\d{9}$/;
+                if (regex.test(mobile) === false) {
+                    printError("mobileErr", "Please enter a valid 8 digit mobile number");
+                } else {
+                    printError("mobileErr", "");
+                    mobileErr = false;
+                }
+            }
+
+            // Validate password
+            if (password == "") {
+                printError("passwordErr", "Please enter your password");
+            } else {
+                var regex = /^[a-zA-Z0-9!@#$%^&*]{6,16}$/;
+                if (regex.test(password) === false) {
+                    printError("passwordErr", "Your password must be at least 5 characters long");
+                } else {
+                    printError("passwordErr", "");
+                    passwordErr = false;
+                }
+            }
+
+            // Validate confirmpassword
+            if (confirmpassword == "") {
+                printError("confirmpasswordErr", "Please enter your confirm password");
+            } else {
+                var regex = /^[a-zA-Z0-9!@#$%^&*]{6,16}$/;
+                if (regex.test(password != confirmpassword) === false) {
+                    printError("confirmpasswordErr", "Password & confirm password doesn't match.");
+                } else {
+                    printError("confirmpasswordErr", "");
+                    confirmpassword = false;
+                }
+            }
+
+
+            // Validate country
+            if (country == "Select") {
+                printError("countryErr", "Please select your country");
+            } else {
+                printError("countryErr", "");
+                countryErr = false;
+            }
+
+            // Validate gender
+            if (gender == "") {
+                printError("genderErr", "Please select your gender");
+            } else {
+                printError("genderErr", "");
+                genderErr = false;
+            }
+
+
+            // Prevent the form from being submitted if there are any errors
+            if ((nameErr || emailErr || mobileErr || countryErr || genderErr) == true) {
+                return false;
+            } else {
+                // Creating a string from input data for preview
+                var dataPreview = "You've entered the following details: \n" +
+                    "Full Name: " + name + "\n" +
+                    "Email Address: " + email + "\n" +
+                    "Mobile Number: " + mobile + "\n" +
+                    "Country: " + country + "\n" +
+                    "Gender: " + gender + "\n";
+                // Display input data in a dialog box before submitting the form
+                alert(dataPreview);
+            }
+        };
+
+        var loadFile = function (event) {
+            var output = document.getElementById('output');
+            output.src = URL.createObjectURL(event.target.files[0]);
+            output.onload = function () {
+                URL.revokeObjectURL(output.src) // free memory
+            }
+        };
+    </script>
+</body>
+
+</html>

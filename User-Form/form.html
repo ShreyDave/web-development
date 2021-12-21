@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Form validation</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="icon" href="fav/Path 1362.svg">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+</head>
+
+<body>
+    <form method="post" name="contactForm" autocomplete="on" onsubmit="return validateForm()" id="frmSubmit1">
+        <h2>Application Form</h2>
+
+        <!-- Name -->
+
+        <div class="row">
+            <label>Full Name</label>
+            <input type="text" name="name" placeholder="Full Name">
+            <div class="error" id="nameErr"></div>
+        </div>
+
+        <!-- Email -->
+
+        <div class="row">
+            <label>Email Address</label>
+            <input type="text" name="email" placeholder="Email">
+            <div class="error" id="emailErr"></div>
+        </div>
+
+        <!-- Mobile Number -->
+
+        <div class="row">
+            <label>Mobile Number</label>
+            <input type="text" name="mobile" class="xyx" maxlength="10" placeholder="Mobile Number">
+            <div class="error" id="mobileErr"></div>
+        </div>
+
+        <!-- password -->
+
+        <div class="row">
+            <label>password</label>
+            <input type="password" name="password" maxlength="8" placeholder="password" onkeyup='check();'>
+            <div class="error" id="passwordErr"></div>
+        </div>
+
+        <!--confirm password -->
+
+        <div class="row">
+            <label>confirm password</label>
+            <input type="password" name="confirmpassword" maxlength="8" placeholder="Confirm Password" onkeyup='check();'>
+            <div class="error" id="confirmpasswordErr"></div>
+        </div>
+
+        <!-- Country -->
+
+        <div class="row">
+            <label>Country</label>
+            <select name="country">
+                <option>Select</option>
+                <option>India</option>
+                <option>United States</option>
+                <option>United Kingdom</option>
+                <option>Australia</option>
+            </select>
+            <div class="error" id="countryErr"></div>
+        </div>
+
+        <!-- Gender -->
+
+        <div class="row">
+            <label>Gender</label>
+            <div class="form-inline">
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+            </div>
+            <div class="error" id="genderErr"></div>
+        </div>
+
+        <!-- Upload File -->
+
+        <div class="row">
+            <label for="File">
+                <div class="btn btn-outline-dark">Upload File</div>
+                <span>
+                    <input type="file" accept="image/*" onchange="loadFile(event)" name="file">
+                </span>
+                &nbsp;
+                <img id="output">
+            </label>
+            <div class="error" id="fileErr"></div>
+        </div>
+
+
+        <div class="row">
+            <input type="submit" value="Submit">
+        </div>
+        <!-- My info -->
+
+        <h1>My info:</h1>
+        <p>
+            Your name is:&nbsp;<span id="outputname"></span><br>
+            Your email is:&nbsp;<span id="outputemail"></span><br>
+            Your Mobile Number is:&nbsp;<span id="outputmnumber"></span><br>
+            Your country is:&nbsp;<span id="outputcountry"></span><br>
+            Your gender is:&nbsp;<span id="output1"></span><br>
+            Upload File:&nbsp;<span id="outputfile"></span>
+        </p>
+    </form>
+    <script src="form.js"></script>
+</body>
+
+</html>
