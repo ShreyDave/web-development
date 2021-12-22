@@ -1,0 +1,507 @@
+body {
+    margin: auto;
+}
+
+.mainwidth {
+    width: 1920px;
+}
+
+.parentmainwidth {
+    width: 100%;
+    max-width: 1755px;
+    margin: auto;
+}
+
+.header-container, .body-container, .footer-container {
+    max-width: 1755px;
+}
+
+.background {
+    background-image: url('Images/background.png');
+    height: 620px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+
+}
+
+.background1 {
+    background: linear-gradient(90deg, #9C9C42 0%, rgba(156, 156, 66, 0.2) 100%);
+    height: 620px;
+    position: relative;
+}
+
+.backgroundcontetnt {
+    position: absolute;
+    top: 206px;
+}
+
+.backgroundcontetnt h1 {
+    margin: 0px 0px 5px 0px;
+    padding: 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    color: #FFFFFF;
+}
+
+
+.backgroundcontetnt p {
+    margin: 0px 0px 35px 0px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.backgroundcontetnt button {
+    height: 50px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.classforp p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 0px;
+    margin: 13px 25px;
+    outline: none;
+}
+
+/* Our Products */
+
+.ourproducts {
+    margin: 100px auto;
+}
+
+.ourproducts h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: #262626;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.productcard1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 270px;
+    height: 428px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.productcard1 img {
+    margin: 0px;
+}
+
+.productcard1 p {
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #262626;
+    margin: 20px auto 5px auto;
+}
+
+.productcard1 h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #9C9C42;
+    margin: 0px 0px 13px 0px;
+}
+
+.addtocart {
+    width: 190px;
+    height: 50px;
+    border: 1px solid #9C9C42;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    padding: 12px 20px 12px 27px;
+    cursor: pointer;
+}
+
+.addtocart p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #9C9C42;
+    margin: 0px 0px 0px 12px;
+}
+
+.shopallproducts {
+    width: 197px;
+    height: 26px;
+    background: #9C9C42;
+    border-radius: 10px;
+    margin: 40px auto 0px auto;
+    display: flex;
+    flex-direction: row;
+    padding: 12px 17px 12px 26px;
+    cursor: pointer;
+}
+
+.shopallproducts p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 0px 10px 0px 0px;
+}
+
+.shopallproducts img {
+    width: 20px;
+    height: 16px;
+    margin: 6px 0px 0px;
+}
+
+/* About Us */
+
+.aboutus {
+    background-image: url('Images/aboutusbackground.png');
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.aboutuscontent {
+    position: absolute;
+    top: 100px;
+}
+
+.aboutuscontent h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: #262626;
+    margin: 0px 0px 40px 0px;
+}
+
+.aboutuscontent p {
+    width: 570px;
+    height: 101px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #262626;
+    margin: 0px 0px 50px 0px;
+}
+
+.findoutmore {
+    width: 126px;
+    height: 26px;
+    background: #9C9C42;
+    border-radius: 10px;
+    padding: 12px 27px 12px 27px;
+    cursor: pointer;
+}
+
+.findoutmore p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+    width: 126px;
+    height: 0px;
+}
+
+/* Blog */
+
+.blog {
+    margin: 100px auto;
+}
+
+.blogcontent {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 50px 0px;
+}
+
+.blogcontent h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    text-transform: uppercase;
+    color: #262626;
+    margin: 0px;
+    padding: 0px;
+}
+
+.blogcontent p {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9C9C42;
+    margin: 0px 0px 10px 15px;
+}
+
+.blogcard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.blogcard1 {
+    display: flex;
+    flex-direction: column;
+    background-image: url('Images/blogimage1.png');
+    width: 100%;
+    height: 225px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.blogcard2 {
+    display: flex;
+    flex-direction: column;
+    background-image: url('Images/blogimage2.png');
+    width: 100%;
+    height: 225px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.blogcard3 {
+    display: flex;
+    flex-direction: column;
+    background-image: url('Images/blogimage3.png');
+    width: 100%;
+    height: 225px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.blogcard1 img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.blogcard2 img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.blogcard3 img {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+.card1 {
+    width: 370px;
+    height: auto;
+}
+
+.card1 h6 {
+    width: 370px;
+    height: 75px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #262626;
+    margin: 0px;
+}
+
+.card1 h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #262626;
+    margin: 18px 0px 5px 0px;
+}
+
+.dateandview {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 150px;
+    margin: 20px 0px 0px 0px;
+}
+
+.dateandview p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #262626;
+    margin: 0px;
+}
+
+/* Recipes */
+
+.recipes {
+    padding: 100px 0px 100px 0px;
+    background: #F5F5F5;
+}
+
+.recipescard {
+    width: 370px;
+    height: 300px;
+}
+
+.recipescard1 {
+    background-image: url('Images/recipes1.png');
+    width: 100%;
+    height: 255px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.recipescard2 {
+    background-image: url('Images/recipes2.png');
+    width: 100%;
+    height: 255px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.recipescard3 {
+    background-image: url('Images/recipes3.png');
+    width: 100%;
+    height: 255px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.recipescard h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #262626;
+    margin: 15px 0px 0px 0px;
+}
+
+.recipescard1 img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.recipescard2 img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.recipescard3 img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+/* Footer */
+
+.footer {
+    background: #9C9C42;
+    padding: 50px 0px 50px 0px;
+}
+
+.footerflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footerflex1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerflex1 h3 {
+    width: 57px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 0px 0px 20px 0px;
+}
+
+.footerflex1 p {
+    width: 100%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin: 0px 0px 10px 0px;
+    cursor: pointer;
+}
