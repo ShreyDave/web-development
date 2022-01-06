@@ -1,3 +1,3 @@
 # wed-development
 
-https://shreydave.github.io/wed-development/
+https://shreydave.github.io/web-development/
