@@ -1,0 +1,1914 @@
+body {
+    margin: auto;
+}
+
+.mainwidth {
+    width: 1920px;
+}
+
+.parentmainwidth {
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.header-container, .body-container, .footer-container {
+    max-width: 1587px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 35px 0px 31px;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.icon h4 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #2B2B39;
+    margin: auto 0px auto 8px;
+}
+
+.navbarflex1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbarflex2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbarflex1 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: #656464;
+    margin: auto 0px auto 32px;
+    cursor: pointer;
+}
+
+
+.inputbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    width: 110px;
+    box-sizing: border-box;
+    margin: 0px 42px 0px 0px;
+}
+
+/* .inputbox :focus {
+    width: 150px;
+    border-bottom: 1px solid black;
+} */
+
+.inputbox img {
+    margin: auto 0px 15px auto;
+}
+
+
+.inputbox input {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #686868;
+    text-align: left;
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+    background-color: transparent;
+    margin: auto 0px 15px 10px;
+    width: 80px;
+}
+
+
+input.searchinput::placeholder {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #686868;
+}
+
+.login {
+    width: 37px;
+    height: 14px;
+    background: #217BF4;
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+    border-radius: 14px;
+    margin: 0px;
+    padding: 18px 43px;
+    cursor: pointer;
+}
+
+.login p {
+    width: 36px;
+    height: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px auto;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+}
+
+.headercontent {
+    display: flex;
+    flex-direction: row;
+    padding: 75px 0px;
+    justify-content: space-between;
+}
+
+.community {
+    padding: 50px 0px 0px;
+}
+
+.communitybutton {
+    width: 177px;
+    height: 36px;
+    background: #D4E7FE;
+    opacity: 0.9;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.communitybutton p {
+    opacity: 1;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #217BF4;
+    padding: 12px 25px;
+    margin: 0px;
+    width: 117px;
+}
+
+.communityflex {
+    margin: 0px;
+    padding: 0px;
+}
+
+.communityflex h1 {
+    width: 515px;
+    height: 132px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+    color: #0A093D;
+    margin: 20px 0px 18px 0px;
+    padding: 0px;
+}
+
+.communityflex h6 {
+    width: 491px;
+    height: 56px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #656464;
+    margin: 0px 0px 42px 0px;
+    padding: 0px;
+}
+
+.aboutmore {
+    display: flex;
+    flex-direction: row;
+}
+
+.aboutmorebutton {
+    height: 62px;
+    background: #217BF4;
+    box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.aboutmorebutton p {
+    width: 78px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 24px 42px;
+    margin: 0px;
+}
+
+.invitefriend {
+    height: 62px;
+    border: 1px solid #217BF4;
+    box-sizing: border-box;
+    border-radius: 14px;
+    cursor: pointer;
+    margin: 0px 0px 0px 18px;
+}
+
+.invitefriend p {
+    width: 83px;
+    height: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: center;
+    color: #217BF4;
+    padding: 24px 42px;
+    margin: 0px;
+}
+
+/* About Us */
+
+.aboutus {
+    margin: 100px auto;
+}
+
+.aboutusflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aboutuscontent {
+    margin: 0px;
+    padding: 0px;
+    width: 406px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutuscontent h6 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #217BF4;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+.aboutuscontent h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #0A093D;
+    margin: 10px 0px 15px 0px;
+}
+
+.aboutuscontent p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #656464;
+    margin: 0px 0px 35px 0px;
+}
+
+.radiocircles {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 15px 0px;
+}
+
+.radiocircles p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #171648;
+    margin: 0px 0px 0px 12px;
+}
+
+.rightsideimage {
+    display: flex;
+    flex-direction: row;
+    height: 540px;
+}
+
+.backgroundimage {
+    background-image: url('Images/aboutusimage1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 270px;
+    height: 368px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightsideimage1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.rightsideimage2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    justify-content: space-evenly;
+}
+
+.rightsideimage2 img {
+    object-fit: cover;
+    border-radius: 14px;
+}
+
+
+/* Our Achievement */
+
+.ourachievement {
+    padding: 75px 0px;
+}
+
+.ourachievementflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card1 {
+    width: 286px;
+    height: 260px;
+    background: #FFFFFF;
+    box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.14);
+    border-radius: 14px;
+    padding: 40px 10px 40px 44px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card3 {
+    width: 286px;
+    height: 260px;
+    padding: 40px 10px 40px 44px;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border-radius: 14px;
+    border: 2px solid rgba(243, 243, 243, 0.5);
+}
+
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 35px 0px;
+}
+
+.rating p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #0A093D;
+    margin: 5px 0px 0px 12px;
+}
+
+.members {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 0px 43px 0px;
+}
+
+.members p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    color: #8C8C8C;
+    margin: 5px 0px 0px 10px;
+}
+
+.card1 h6 {
+    width: 274px;
+    height: 78px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #8C8C8C;
+    margin: 0px 0px 40px 0px;
+    padding: 0px;
+}
+
+
+.card3 h6 {
+    width: 274px;
+    height: 78px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #8C8C8C;
+    margin: 0px 0px 40px 0px;
+    padding: 0px;
+}
+
+.joinus {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.joinus h5 {
+    width: 157px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #217BF4;
+    margin: 0px;
+    padding: 0px;
+}
+
+.joinus img {
+    margin: 2px 0px 0px 10px;
+}
+
+.card2 {
+    width: 381px;
+    height: 322px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card2 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #217BF4;
+    margin: 0px;
+}
+
+.card2 h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #0A093D;
+    margin: 15px 0px 18px 0px;
+    padding: 0px;
+}
+
+.card2 h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #656464;
+    margin: 0px 0px 38px 0px;
+}
+
+.card2flex {
+    display: flex;
+    flex-direction: row;
+    width: 116px;
+    height: 14px;
+    background: #217BF4;
+    box-shadow: 0px 10px 22px rgba(33, 123, 244, 0.26);
+    border-radius: 14px;
+    padding: 22px 38px;
+    cursor: pointer;
+}
+
+.card2flex p {
+    width: 80px;
+    height: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card2flex img {
+    margin: 2px 0px 0px 20px;
+}
+
+/* Our Community */
+
+.ourcommunity {
+    margin: 55px auto 36px auto;
+    padding: 60px 0px 0px 0px;
+    width: 100%;
+    height: auto;
+    background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+}
+
+.ourcommunitycontent {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 60px 0px;
+}
+
+.ourcommunitycontent p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #217BF4;
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
+
+.ourcommunitycontent h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 36px;
+    color: #0A093D;
+    margin: 0px 0px 20px 0px;
+}
+
+.ourcommunitycontent h5 {
+    width: 421px;
+    height: 56px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #656464;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ourcommunitycontentflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.cardflex1 {
+    width: 37%;
+    height: 90px;
+    background: #FFFFFF;
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+    border-radius: 14px;
+    margin-bottom: 44px;
+    padding: 46px 46px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cardflex1content {
+    margin: 0px 0px 0px 35px;
+}
+
+.cardflex1content h4 {
+    width: 209px;
+    height: 26px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    color: #2F2C4A;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cardflex1content p {
+    width: 315px;
+    height: 52px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #656464;
+    margin: 15px 0px 0px 0px;
+}
+
+.cardflex1icon {
+    width: 66px;
+    height: 66px;
+    background: linear-gradient(154.49deg, #5CA1FE 6.61%, #217BF4 89.72%);
+    border-radius: 24px;
+}
+
+/* Our Team */
+
+.ourteam {
+    margin: 46px auto;
+    padding: 84px 0px;
+    height: auto;
+}
+
+.ourteamcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 400px;
+    margin: auto;
+}
+
+.ourteamcontent p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #217BF4;
+    margin: 0px 0px 10px 0px;
+}
+
+.ourteamcontent h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    color: #0A093D;
+    margin: 0px 0px 18px 0px;
+}
+
+.ourteamcontent h6 {
+    width: 454px;
+    height: 56px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #656464;
+    margin: 0px 0px 38px 0px;
+}
+
+.activebuttons {
+    width: 474px;
+    height: 72px;
+    background: #D4E7FE;
+    border-radius: 14px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.activebuttons p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #2F2C4A;
+    padding: 28px 0px;
+    cursor: pointer;
+}
+
+.active {
+    width: 150px;
+    height: 56px;
+    background: #217BF4;
+    box-shadow: 0px 7px 22px -6px rgba(0, 72, 168, 0.34);
+    border-radius: 14px;
+    margin: 8px 0px;
+    cursor: pointer;
+}
+
+.active p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    padding: 20px 0px;
+    margin: 0px;
+}
+
+.contactcard {
+    display: flex;
+    flex-direction: row;
+    margin: 44px auto 0px;
+    justify-content: space-between;
+}
+
+.contactcardnumber1 {
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    padding: 30px 50px;
+    height: 256px;
+    background: #FFFFFF;
+    box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
+    border-radius: 14px;
+}
+
+.contactcardnumber1 h1 {
+    width: 171px;
+    height: 26px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    color: #2F2C4A;
+    text-align: center;
+    margin: 34px 0px 14px 0px;
+}
+
+.contactcardnumber1 p {
+    width: 72px;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #656464;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.contactcardnumber2 {
+    display: flex;
+    flex-direction: column;
+    width: 170px;
+    padding: 30px 50px;
+    height: 256px;
+    background: #FFFFFF;
+    border: 2px solid rgba(243, 243, 243, 0.5);
+    border-radius: 14px;
+}
+
+.contactcardnumber2 h1 {
+    width: 171px;
+    height: 26px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #2F2C4A;
+    margin: 34px 0px 14px 0px;
+}
+
+.contactcardnumber2 p {
+    width: 72px;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #656464;
+    text-align: center;
+    margin: 0px auto;
+}
+
+/* Download App */
+
+.downloadapp {
+    margin: 46px auto 86px auto;
+    padding: 44px 0px 0px;
+    width: 100%;
+    height: auto;
+    background: #E5F0FD;
+}
+
+.downloadappflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.downloadappcontent {
+    margin: 0px;
+    padding: 0px;
+    width: 351px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.downloadappimg {
+    display: flex;
+    flex-direction: row;
+    height: 540px;
+}
+
+.downloadappcontent p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    color: #217BF4;
+    margin: 0px;
+}
+
+.downloadappcontent h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 52px;
+    color: #0A093D;
+    margin: 10px 0px 18px 0px;
+}
+
+.downloadappcontent h6 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #656464;
+    margin: 0px 0px 36px 0px;
+}
+
+.approw {
+    display: flex;
+    flex-direction: row;
+}
+
+.approw img {
+    cursor: pointer;
+}
+
+.mardinclassimg {
+    margin-right: 20px;
+}
+
+/* Blog */
+
+.blog {
+    margin: 86px auto 106px auto;
+    padding: 34px 0px;
+    height: auto;
+}
+
+.blogcontent {
+    text-align: center;
+}
+
+.blogcontent p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    color: #217BF4;
+    margin: 0px auto;
+}
+
+.blogcontent h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: #0A093D;
+    margin: 10px auto 0px auto;
+}
+
+.blogcardflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 80px auto 0px;
+}
+
+.blogcard1 {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: auto;
+}
+
+.borderflex {
+    display: flex;
+    flex-direction: row;
+    margin: 25px auto 24px auto;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.borderflex h5 {
+    width: 273px;
+    height: 64px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: #2F2C4A;
+    margin: 0px auto 24px;
+}
+
+.continuereading {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.continuereading p {
+    width: 134px;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #656464;
+    margin: 0px;
+}
+
+.continuereading img {
+    margin: 4px 0px 0px 10px;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: auto;
+    background: #2B2B39;
+    padding: 78px 0px 0px;
+}
+
+.footerflex {
+    display: flex;
+    flex-direction: row;
+    /* padding: 0px 85px; */
+}
+
+.footerflex1 {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    justify-content: space-between;
+}
+
+.footerflex2 {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: end;
+}
+
+.footercolumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.footercolumn h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin: 0px 0px 22px;
+}
+
+.footercolumn p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 46px;
+    letter-spacing: 0.0125em;
+    color: #E7E7E7;
+    margin: 0px 0px 15px;
+    cursor: pointer;
+}
+
+.subscribecontent {
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    height: 218px;
+}
+
+.subscribeinput {
+    width: 339px;
+    height: 48px;
+    border: 1px solid rgba(255, 255, 255, 0.85);
+    box-sizing: border-box;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+}
+
+.subscribeinput input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 215px;
+    height: 48px;
+    color: white;
+    padding: 0px 24px 0px 24px;
+}
+
+input.placeholder::placeholder {
+    width: 96px;
+    height: 12px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 0.0125em;
+    color: #717179;
+    padding: 18px 0px 18px 0px;
+}
+
+.subscribe {
+    width: 110px;
+    height: 48px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    margin: 0px;
+    cursor: pointer;
+}
+
+.subscribe h4 {
+    width: 78px;
+    height: 16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #2B2B39;
+    padding: 16px 18px;
+    margin: 0px;
+}
+
+.subscribecontent h1 {
+    width: 179px;
+    height: 64px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.subscribecontent p {
+    width: 299px;
+    height: 56px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #E7E7E7;
+    margin: 18px 0px 32px;
+}
+
+.social {
+    width: 100%;
+    height: auto;
+    background: #20202D;
+}
+
+.socialflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 41px 0px;
+}
+
+.socialflex1 p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    color: #F6F6F6;
+    margin: 0px;
+}
+
+.socialflex1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.socialflex2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.socialflex2 img {
+    cursor: pointer;
+    margin-left: 8px;
+}
+
+
+
+/* Media Query */
+
+/* @media only screen and (max-width: 1024px) {
+    body {
+        margin: auto;
+    }
+
+    .mainwidth {
+        width: 1024px;
+    }
+
+    .parentmainwidth {
+        width: 100%;
+        max-width: 832px;
+        margin: auto;
+    }
+
+    .header-container, .body-container, .footer-container {
+        max-width: 832px;
+    }
+
+    img.peopletalkimage{
+        width: 100%;
+    }
+
+    .communityflex h1{
+        font-size: 52px;
+    }
+
+    .communityflex h6{
+        font-size: 14px;
+    }
+
+    .headercontent{
+        align-items: center;
+    }
+
+    .aboutuscontent h6{
+        font-size: 14px;
+    }
+
+    .aboutuscontent h1{
+        font-size: 32px;
+    }
+
+    .aboutuscontent p{
+        font-size: 12px;
+    }
+
+    .backgroundimage{
+        width: 210px;
+        height: 280px;
+    }
+
+    .rightsideimage2 img {
+        height: auto;
+        width: 100%;
+    }
+
+    .contactcardnumber1 {
+        justify-content: space-evenly;
+        width: 20%;
+        padding: 25px 10px 0px 10px;
+        height: 266px;
+    }
+
+    .contactcardnumber1 img {
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .contactcardnumber1 h1 {
+        font-size: 20px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .contactcardnumber1 p {
+        font-size: 12px;
+        margin: 0px auto;
+    }
+
+
+    .contactcardnumber2 {
+        justify-content: space-evenly;
+        width: 20%;
+        padding: 25px 10px 0px 10px;
+        height: 266px;
+    }
+
+    .contactcardnumber2 img {
+        width: 80%;
+        margin: 0px auto;
+    }
+
+    .contactcardnumber2 h1 {
+        font-size: 20px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .contactcardnumber2 p {
+        font-size: 12px;
+        margin: 0px auto;
+    }
+} */
+@media only screen and (max-width: 1024px){
+    body {
+        margin: auto;
+    }
+
+    .mainwidth {
+        width: 1024px;
+    }
+
+    .parentmainwidth {
+        width: 100%;
+        max-width: 964px;
+        margin: auto;
+    }
+
+    .peopletalkimage1 img{
+        width: 100%;
+    }
+
+    .cardflex1{
+        height: auto;
+    }
+
+    .cardflex1content p{
+        width: 100%;
+        height: auto;
+    }
+
+    .contactcardnumber1{
+        width: 100%;
+        padding: 30px 30px;
+    }
+
+    .contactcardnumber2{
+        width: 100%;
+        padding: 30px 30px;
+    }
+
+    .blogcard1{
+        width: 300px;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        margin: auto;
+    }
+
+    .mainwidth {
+        width: 768px;
+    }
+
+    .parentmainwidth {
+        width: 100%;
+        max-width: 708px;
+        margin: auto;
+    }
+
+    .headercontent{
+        align-items: end;
+        padding: 25px 0px;
+    }
+
+    .communityflex h1 {
+        width: 100%;
+        font-size: 38px;
+        margin: 15px 0px 0px;
+        padding: 0px;
+        height: auto;
+    }
+
+    .communityflex h6 {
+        width: 100%;
+        height: auto;
+        font-size: 16px;
+        margin: 25px 0px 25px 0px;
+        padding: 0px;
+    }
+
+    .peopletalkimage1 img {
+        width: 100%;
+        margin: 30px 0px 0px;
+    }
+
+    .aboutus {
+        margin: 25px auto;
+    }
+
+    .aboutusflex{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutuscontent{
+        width: 100%;
+    }
+
+    .aboutuscontent h6 {
+        font-size: 16px;
+    }
+
+    .aboutuscontent h1 {
+        font-size: 30px;
+    }
+
+    .aboutuscontent p {
+        font-size: 16px;
+        margin: 0px 0px 25px;
+    }
+
+    .radiocircles p {
+        font-size: 16px;
+        margin: 0px 0px 0px 12px;
+    }
+
+
+    /* .navbar {
+        display: none;
+    }
+
+    .ourcommunity {
+        display: none;
+    }
+
+    .ourteam {
+        display: none;
+    }
+
+    .downloadapp {
+        display: none;
+    }
+
+    .blog {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    } */
+}
+
+@media only screen and (max-width: 576px) {
+
+    body {
+        margin: auto;
+    }
+
+    .mainwidth {
+        width: 576px;
+    }
+
+    .parentmainwidth {
+        width: 100%;
+        max-width: 335px;
+        margin: auto;
+    }
+
+    .headercontent {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 0px;
+    }
+
+    .communityflex h1 {
+        width: 100%;
+        font-size: 36px;
+        margin: 15px 0px 0px;
+        padding: 0px;
+        height: auto;
+    }
+
+    .communityflex h6 {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+        margin: 25px 0px 25px 0px;
+        padding: 0px;
+    }
+
+    .aboutmore {
+        flex-direction: column;
+    }
+
+    .invitefriend {
+        margin: 20px 0px 0px;
+    }
+
+    .invitefriend p {
+        width: auto;
+    }
+
+    .aboutmorebutton p {
+        width: auto;
+    }
+
+    .communitybutton p {
+        width: auto;
+    }
+
+    .peopletalkimage1 img {
+        width: 100%;
+        margin: 30px 0px 0px;
+    }
+
+    .aboutus {
+        margin: 50px auto;
+    }
+
+    .aboutusflex {
+        flex-direction: column;
+    }
+
+    .aboutuscontent {
+        width: 100%;
+    }
+
+    .aboutuscontent h6 {
+        font-size: 14px;
+    }
+
+    .aboutuscontent h1 {
+        font-size: 28px;
+    }
+
+    .aboutuscontent p {
+        font-size: 14px;
+        margin: 0px 0px 25px;
+    }
+
+    .radiocircles p {
+        font-size: 14px;
+        margin: 0px 0px 0px 12px;
+    }
+
+    .rightsideimage {
+        margin: 25px auto 0px;
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    .backgroundimage {
+        width: 100%;
+    }
+    .rightsideimage2 {
+        display: none;
+    }
+
+    .ourachievement {
+        padding: 0px 0px;
+    }
+
+    .ourachievementflex {
+        flex-direction: column;
+    }
+
+    .card1 {
+        width: auto;
+        height: auto;
+        padding: 30px 10px 30px 15px;
+    }
+
+    .card2 {
+        width: auto;
+        height: auto;
+        padding: 30px 10px 30px 15px;
+    }
+
+    .card3 {
+        width: auto;
+        height: auto;
+        padding: 30px 10px 30px 15px;
+        margin: 20px 0px;
+    }
+
+    .card1 h6 {
+        font-size: 14px;
+    }
+
+    .card3 h6 {
+        font-size: 14px;
+    }
+
+    .rating p {
+        font-size: 16px;
+    }
+
+    .members p {
+        font-size: 14px;
+    }
+
+    .joinus h5 {
+        font-size: 14px;
+    }
+
+    .joinus img {
+        margin: 2px 0px 0px 0px;
+    }
+
+    .card2 p {
+        font-size: 14px;
+    }
+
+    .card2 h1 {
+        font-size: 26px;
+    }
+
+    .card2 h5 {
+        font-size: 14px;
+        margin: 0px 0px 25px;
+    }
+
+    .card2flex {
+        width: auto;
+        justify-content: center;
+    }
+
+    .ourcommunity {
+        margin: 50px auto;
+        padding: 0px;
+    }
+
+    .ourcommunitycontentflex {
+        flex-direction: column;
+    }
+
+    .cardflex1 {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+
+    .cardflex1content {
+        margin: 0px;
+    }
+
+    .ourcommunitycontent p {
+        font-size: 14px
+    }
+
+    .ourcommunitycontent h1 {
+        margin: 0px auto;
+        text-align: center;
+        font-size: 26px;
+    }
+
+    .ourcommunitycontent h5 {
+        width: 100%;
+        font-size: 14px
+    }
+
+    .ourcommunitycontent {
+        margin: 0px auto 30px;
+    }
+
+    .cardflex1content h4 {
+        font-size: 20px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .cardflex1content p {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+        margin: 15px auto 0px;
+        text-align: center;
+    }
+
+    .imageforlongwidth {
+        display: flex;
+        justify-content: center;
+        margin: 0px auto 0px;
+    }
+
+    .imageforlongwidth1 {
+        display: flex;
+        justify-content: center;
+        margin: 0px auto 25px;
+    }
+
+    .ourteam {
+        margin: 0px auto 50px;
+        padding: 0px;
+        margin: 0px auto;
+    }
+
+    .ourteamcontent {
+        width: 100%;
+    }
+
+    .ourteamcontent p {
+        font-size: 14px;
+        margin: 0px;
+    }
+
+    .ourteamcontent h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .ourteamcontent h6 {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .activebuttons {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .active {
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+        margin: 10px auto;
+    }
+
+    .contactcard {
+        flex-direction: column;
+        align-items: center;
+        margin: 25px auto 0px;
+    }
+
+    .contactcardnumber1 {
+        width: auto;
+        height: auto;
+        margin: 20px auto 20px;
+    }
+
+    .contactcardnumber2 {
+        width: auto;
+        height: auto;
+        margin: 0px auto 20px;
+    }
+
+    .contactcardnumber3 {
+        width: auto;
+        height: auto;
+        margin: 0px auto 20px;
+    }
+
+    .downloadapp {
+        margin: 0px auto;
+        padding: 50px 0px 50px;
+    }
+
+    .downloadappflex {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .downloadappimg {
+        height: auto;
+    }
+
+    .downloadappimg img {
+        width: 100%;
+        object-fit: contain;
+        margin-bottom: 20px;
+    }
+
+    .downloadappcontent p {
+        font-size: 14px;
+    }
+
+    .downloadappcontent h1 {
+        font-size: 27px;
+        margin: 0px 0px 0px;
+    }
+
+    .downloadappcontent h6 {
+        font-size: 14px;
+        margin: 0px 0px 25px;
+    }
+
+    .blog {
+        padding: 30px 0px 0px;
+    }
+
+    .blogcardflex {
+        flex-direction: column;
+        margin: 30px auto 0px;
+    }
+
+    .blogcard1 {
+        width: 100%;
+    }
+
+    .downloadappcontent {
+        width: 100%;
+        height: auto;
+    }
+
+    .footerflex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .footerflex1 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .footercolumn {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .footerflex2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        width: 100%;
+    }
+
+    .socialflex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 41px 0px;
+    }
+
+    .footercolumn p {
+        font-size: 14px;
+        margin: 0px 0px 0px;
+    }
+
+    .footercolumn h3 {
+        font-size: 18px;
+        margin: 15px 0px 15px;
+    }
+
+    .subscribecontent {
+        width: 100%;
+        height: 100%;
+        margin: 20px 0px 20px;
+    }
+
+    .subscribecontent h1 {
+        font-size: 18px;
+        width: 100%;
+        height: auto;
+    }
+
+    .subscribecontent p {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+        margin: 5px 0px 20px;
+    }
+
+    .subscribeinput {
+        width: 100%;
+        height: auto;
+    }
+
+    .subscribe h4 {
+        font-size: 14px;
+        padding: 16px 10px;
+    }
+
+    .socialflex1 img {
+        margin: 20px 0px;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
+
+
+
+
+/* 
+        .navbar{
+        display: none;
+    }
+
+    .peopletalkimage1{
+        display: none;
+    }
+
+    .aboutus{
+        display: none;
+    }
+
+    .ourachievement{
+        display: none;
+    }
+
+    .ourcommunity{
+        display: none;
+    }
+
+    .ourteam{
+        display: none;
+    }
+
+    .downloadapp{
+        display: none;
+    }
+
+    .blog{
+        display: none;
+    }
+
+    .footer{
+        display: none;
+    }
+ */
