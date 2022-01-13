@@ -1,0 +1,336 @@
+body {
+    margin: auto;
+}
+
+.mainwidth {
+    width: 1920px;
+}
+
+.parentmainwidth {
+    width: 100%;
+    max-width: 1180px;
+    margin: auto;
+}
+
+.header-container, .body-container, .footer-container {
+    max-width: 1180px;
+}
+
+.downloadpage {
+    padding: 66px 0px 97px 0px;
+    height: auto;
+    background: linear-gradient(180deg, #E4EFFF 0%, rgba(228, 239, 255, 0.6) 92.51%, rgba(228, 239, 255, 0) 100%);
+}
+
+/* .rightcard{
+    background-image: url('Images/rightrectangle.png');
+    width: 34.6%;
+    height: 869px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: right;
+} */
+
+.downloadpagecontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 106px;
+}
+
+.socialmedia {
+    width: 45.55%;
+    height: auto;
+}
+
+.socialmedia h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    color: #193766;
+    margin: 0px;
+}
+
+.socialmedia p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #697B98;
+    margin: 20px 0px 40px;
+}
+
+.downloadbuttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.downloadnow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    width: 154px;
+    height: 24px;
+    background: #3B82F6;
+    box-shadow: 0px 30px 60px rgba(59, 130, 246, 0.25);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.downloadnow h5 {
+    width: 115px;
+    height: 21px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #F4F7FF;
+}
+
+.seeinaction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    width: 141px;
+    height: 24px;
+    background: #C6DBFF;
+    border-radius: 6px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.seeinaction h5 {
+    width: 102px;
+    height: 21px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #3B82F6;
+}
+
+.socialposts {
+    width: 583px;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.socialposts1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.socialposts2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* Figma Social */
+
+.figmasocial {
+    padding: 100px 0px;
+    height: auto;
+    background: linear-gradient(180deg, #E4EFFF 0%, rgba(228, 239, 255, 0.6) 92.51%, rgba(228, 239, 255, 0) 100%);
+}
+
+.figmasocialcontent1 {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px;
+}
+
+.figmasocialcontent2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.figmasocialcontent2 h3 {
+    width: 574px;
+    height: 132px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #193766;
+    margin: 0px;
+}
+
+.figmasocialcontent3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 87px;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    width: 273.33px;
+    height: 264px;
+    background: #193766;
+    box-shadow: 0px 30px 60px rgba(25, 55, 102, 0.25);
+    border-radius: 10px;
+}
+
+.cardicon1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 6px;
+}
+
+.card1 h1 {
+    width: 145px;
+    height: 44px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.card1 p {
+    width: 268px;
+    height: 120px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    width: 273.33px;
+    height: 264px;
+}
+
+.cardicon2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background: #193766;
+    box-shadow: 0px 30px 60px rgba(25, 55, 102, 0.25);
+    border-radius: 6px;
+}
+
+.card2 h1 {
+    width: 115px;
+    height: 44px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    text-align: center;
+    color: #193766;
+    margin: 0px;
+}
+
+.card2 p {
+    width: 268px;
+    height: 120px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #697B98;
+    margin: 0px;
+}
+
+
+/* Pre Design */
+
+.predesign {
+    display: flex;
+    flex-direction: row;
+}
+
+.predesigncontent {
+    display: flex;
+    flex-direction: column;
+    width: 573px;
+    height: auto;
+}
+
+.predesigncontent h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: #193766;
+    margin: 0px;
+}
+
+.predesigncontent p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #697B98;
+    margin: 0px;
+}
+
+.points{
+    display: flex;
+    flex-direction: row;
+}
+
+.points1 {
+    width: 20px;
+    height: 20px;
+    background: #3B82F6;
+    margin-right: 10px;
+}
+
+.points1 p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #193766;
+}
