@@ -1,0 +1,1020 @@
+body {
+    margin: auto;
+}
+
+.mainwidth {
+    width: 1920px;
+}
+
+.parentmainwidth {
+    width: 100%;
+    max-width: 1180px;
+    margin: auto;
+}
+
+.parentmainwidth1 {
+    width: 100%;
+    max-width: 1241.97px;
+    margin: auto;
+}
+
+.header-container, .body-container, .footer-container {
+    max-width: 1180px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 65px;
+}
+
+.navbar1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar1 h1 {
+    width: 69px;
+    height: 23px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #193766;
+    margin: 0px 0px 0px 15px;
+}
+
+.navbar1 a {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: rgba(0, 21, 51, 0.6);
+    margin: 0px 50px 0px 0px;
+    text-decoration: none;
+}
+
+.downloadnowclassbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px 25px; */
+    width: 137px;
+    height: 43px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    margin: 0px 0px;
+}
+
+.downloadnowclassbutton p {
+    width: 87px;
+    height: 23px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #3B82F6;
+    margin: 0px 0px;
+}
+
+.downloadpage {
+    padding: 66px 0px 0px 0px;
+    height: auto;
+    background: linear-gradient(180deg, #E4EFFF 0%, rgba(228, 239, 255, 0.6) 92.51%, rgba(228, 239, 255, 0) 100%);
+}
+
+/* .rightcard{
+    background-image: url('Images/rightrectangle.png');
+    width: 34.6%;
+    height: 869px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: right;
+} */
+
+.downloadpagecontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 106px;
+}
+
+.socialmedia {
+    width: 45.55%;
+    height: auto;
+}
+
+.socialmedia h1 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    color: #193766;
+    margin: 0px;
+}
+
+.socialmedia p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #697B98;
+    margin: 20px 0px 40px;
+}
+
+.downloadbuttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.downloadnow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    width: 154px;
+    height: 24px;
+    background: #3B82F6;
+    box-shadow: 0px 30px 60px rgba(59, 130, 246, 0.25);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.downloadnow h5 {
+    width: 115px;
+    height: 21px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #F4F7FF;
+}
+
+.seeinaction {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    width: 141px;
+    height: 24px;
+    background: #C6DBFF;
+    border-radius: 6px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.seeinaction h5 {
+    width: 102px;
+    height: 21px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #3B82F6;
+}
+
+.socialposts {
+    width: 583px;
+    height: 582px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.socialposts1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.socialposts2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.columnimageflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Figma Social */
+
+.figmasocial {
+    padding: 100px 0px;
+    height: auto;
+    background: linear-gradient(180deg, #E4EFFF 0%, rgba(228, 239, 255, 0.6) 92.51%, rgba(228, 239, 255, 0) 100%);
+}
+
+.figmasocialcontent1 {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px;
+}
+
+.figmasocialcontent2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.figmasocialcontent2 h3 {
+    width: 574px;
+    height: 132px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #193766;
+    margin: 0px;
+}
+
+.figmasocialcontent3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 87px;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    width: 273.33px;
+    height: 264px;
+    background: #193766;
+    box-shadow: 0px 30px 60px rgba(25, 55, 102, 0.25);
+    border-radius: 10px;
+    z-index: 1;
+}
+
+.cardicon1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 6px;
+}
+
+.card1 h1 {
+    width: 145px;
+    height: 44px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.card1 p {
+    width: 268px;
+    height: 120px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px;
+    width: 273.33px;
+    height: 264px;
+}
+
+.cardicon2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 6px;
+    background: #193766;
+    box-shadow: 0px 30px 60px rgba(25, 55, 102, 0.25);
+    border-radius: 6px;
+}
+
+.card2 h1 {
+    width: 115px;
+    height: 44px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    text-align: center;
+    color: #193766;
+    margin: 0px;
+}
+
+.card2 p {
+    width: 268px;
+    height: 120px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #697B98;
+    margin: 0px;
+}
+
+
+/* Pre Design */
+
+.predesign {
+    padding: 100px 0px;
+}
+
+.predesign1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.predesigncontent {
+    display: flex;
+    flex-direction: column;
+    width: 573px;
+    height: 388px;
+    justify-content: space-between;
+}
+
+.predesigncontent h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: #193766;
+    margin: 0px;
+}
+
+.predesigncontent p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #697B98;
+    margin: 0px;
+}
+
+.points {
+    display: flex;
+    flex-direction: row;
+}
+
+.points1 {
+    width: 20px;
+    height: 20px;
+    margin: 6px 10px 0px 0px;
+}
+
+.points p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #193766;
+}
+
+.socialposts3 {
+    width: 624.97px;
+    height: 604.33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.socialposts4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.socialposts5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+/* Design Templates */
+
+
+.toolposts {
+    width: 575px;
+    height: 591px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.toolposts1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+}
+
+.toolposts2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tool1 {
+    filter: drop-shadow(0px 30px 60px rgba(59, 130, 246, 0.25));
+    border-radius: 10px;
+    margin: 0px 30px 30px 0px;
+}
+
+.tool2 {
+    filter: drop-shadow(0px 30px 60px rgba(59, 130, 246, 0.25));
+    border-radius: 10px;
+}
+
+.tool3 {
+    filter: drop-shadow(0px 30px 60px rgba(59, 130, 246, 0.25));
+    border-radius: 10px;
+}
+
+.tool4 {
+    filter: drop-shadow(0px 30px 60px rgba(59, 130, 246, 0.25));
+    border-radius: 10px;
+    margin: 30px 0px 0px 30px;
+}
+
+/* Social Feeds */
+
+.socialfeeds {
+    width: 100%;
+    height: auto;
+    background: #193766;
+    padding: 100px 0px;
+}
+
+.socialfeedscontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.preview {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 41px;
+    background: rgba(59, 130, 246, 0.1);
+    border-radius: 100px;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+
+.preview p {
+    width: 80px;
+    height: 21px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #3B82F6;
+    margin: 0px 0px;
+}
+
+.socialfeedscontent h2 {
+    width: 777px;
+    height: 88px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 15px 0px 60px 0px;
+}
+
+
+.previewfigma1 {
+    background-image: url('Images/figmaUI.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 710px;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialfeedscontent h3 {
+    width: 778px;
+    height: 60px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0px;
+}
+
+/* Preview Post */
+
+.previewpost {
+    padding: 100px 0px;
+}
+
+.previewpostcontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.optimizepost {
+    display: flex;
+    flex-direction: column;
+    width: 574px;
+    height: 474px;
+    justify-content: space-between;
+}
+
+.optimizepost h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: #193766;
+    margin: 0px;
+}
+
+.optimizepost p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #697B98;
+    margin: 0px;
+}
+
+.instacard1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 35px;
+    width: 504px;
+    height: 80px;
+    background: #3B82F6;
+    box-shadow: 0px 30px 60px rgba(59, 130, 246, 0.25);
+    border-radius: 10px;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+
+.instacard1 h6 {
+    width: 171px;
+    height: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.instacard2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 35px;
+    width: 504px;
+    height: 80px;
+    filter: drop-shadow(0px 30px 60px rgba(59, 130, 246, 0.25));
+    border-radius: 10px;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+
+.instacard2 h6 {
+    width: 171px;
+    height: 30px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    color: #193766;
+    margin: 0px;
+}
+
+.border {
+    width: 574px;
+    height: 1px;
+    background: rgba(105, 123, 152, 0.1);
+    margin: 0px 0px;
+}
+
+.instapost {
+    filter: drop-shadow(0px 30px 60px rgba(59, 130, 246, 0.25));
+    margin: 0px;
+    border-radius: 24px;
+}
+
+/* Figma Commercial */
+
+.figmacommercial {
+    padding: 100px 0px;
+}
+
+.figmacommercialcontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.commercial {
+    display: flex;
+    flex-direction: column;
+    width: 574px;
+    height: 482px;
+    justify-content: space-between;
+}
+
+.commercial h2 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    color: #193766;
+    margin: 0px;
+}
+
+.commercial p {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #697B98;
+    margin: 0px;
+}
+
+.rightwrong {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.rightwrong h4 {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #193766;
+    margin: 0px 0px 0px 15px;
+}
+
+.readlicense {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 15px 25px; */
+    width: 192px;
+    height: 54px;
+    border: 2px solid #3B82F6;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 30px 60px rgba(59, 130, 246, 0.25));
+    border-radius: 6px;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+
+.readlicense h5 {
+    width: 103px;
+    height: 21px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #3B82F6;
+    margin: 0px 0px;
+}
+
+.figmauiimage {
+    background: url(image.png);
+    filter: drop-shadow(0px 30px 60px rgba(25, 55, 102, 0.25));
+    border-radius: 10px;
+}
+
+/* Download Now */
+
+.downloadnowclass {
+    padding: 100px 0px;
+}
+
+.downloadnowcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.downloadclass {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px 20px; */
+    width: 145px;
+    height: 41px;
+    background: rgba(59, 130, 246, 0.1);
+    border-radius: 100px;
+    margin: 0px 0px;
+}
+
+.downloadclass p {
+    width: 105px;
+    height: 21px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #3B82F6;
+    margin: 0px 0px;
+}
+
+.downloadnowcontent h1 {
+    width: 777px;
+    height: 44px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    color: #193766;
+    margin: 25px 0px 15px 0px;
+}
+
+.downloadnowcontent h5 {
+    width: 574px;
+    height: 60px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #697B98;
+    margin: 0px 0px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 416px;
+    height: 64px;
+}
+
+.buttons1 {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    margin-top: 40px;
+}
+
+
+.downloadnow1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    width: 154px;
+    height: 24px;
+    background: #3B82F6;
+    box-shadow: 0px 30px 60px rgba(59, 130, 246, 0.25);
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.downloadnow1 h6 {
+    width: 115px;
+    height: 21px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #F4F7FF;
+    margin: 0px;
+}
+
+.twitterbutton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    width: 127px;
+    height: 64px;
+    background: #1DA1F2;
+    box-shadow: 0px 30px 60px rgba(29, 161, 242, 0.25);
+    border-radius: 6px;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+
+.twitterbutton h6 {
+    width: 88px;
+    height: 21px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #F4F7FF;
+    margin: 0px 0px;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: auto;
+    background-image: url('Images/footerbac.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 230px 0px 137px 0px;
+}
+
+.footercontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 62px;
+}
+
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    width: 48.73%;
+    height: 187px;
+    justify-content: space-between;
+}
+
+.footer2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.marginclass {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+}
+
+.footer3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 45%;
+}
+
+.footer1 h1 {
+    width: 69px;
+    height: 23px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin: 0px 0px;
+}
+
+.footer1 p {
+    width: 575px;
+    height: 84px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0px 0px;
+}
+
+.footer2 h2 {
+    width: 100%;
+    height: auto;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0px;
+}
+
+.footer2 a {
+    width: 100%;
+    height: auto;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0px;
+    text-decoration: none;
+}
+
+.borderclass {
+    width: 1180px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 0px;
+}
+
+.copyright h1 {
+    width: 100%;
+    height: 18px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.4);
+    padding-top: 45px;
+    margin: 0px;
+}    
